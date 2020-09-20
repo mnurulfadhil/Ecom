@@ -39,19 +39,25 @@ const Page = () => {
           gambar="https://ecs7-p.tokopedia.net/img/cache/200-square/VqbcmM/2020/9/14/40180b45-e64d-4730-9e32-1e0ee3151357.jpg.webp"
         />
         <Data
-          button={() => setIsiKeranjang(isikeranjang + 1)}
+          button={() =>
+            setIsiKeranjang(isikeranjang + 1, alert('Berhasil ditambahkan'))
+          }
           harga="Rp895.000,-"
           merk="Tory Burch Ori"
           gambar="https://ecs7-p.tokopedia.net/img/cache/200-square/product-1/2020/5/31/72064467/72064467_6997f6f5-d53f-442c-9246-ceda42777969_479_479.webp"
         />
         <Data
-          button={() => setIsiKeranjang(isikeranjang + 1)}
+          button={() =>
+            setIsiKeranjang(isikeranjang + 1, alert('Berhasil ditambahkan'))
+          }
           harga="Rp88.800,-"
           merk="Lyodra Daniella Flat"
           gambar="https://ecs7-p.tokopedia.net/img/cache/300/product-1/2020/9/2/108697383/108697383_6af929f4-3be2-4eaa-8097-5ab298f57b85_1200_1200.webp"
         />
         <Data
-          button={() => setIsiKeranjang(isikeranjang + 1)}
+          button={() =>
+            setIsiKeranjang(isikeranjang + 1, alert('Berhasil ditambahkan'))
+          }
           harga="Rp88.000,-"
           merk="Lyodra Arya Flip"
           gambar="https://ecs7-p.tokopedia.net/img/cache/300/product-1/2020/9/2/108697383/108697383_34fc46a0-3e43-4a62-99a1-118a78a642a8_1200_1200.webp"
