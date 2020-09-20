@@ -1,3 +1,2 @@
 # Ecom
-check folder "HASIL",untuk melihat layout E-Commerce
-*Layout tampilan Cart e_commerce
+check folder "HASIL",untuk melihat layout bagian Cart E-Commerce
